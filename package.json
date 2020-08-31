@@ -1,15 +1,15 @@
 {
-  "name": "nginx-cache",
-  "version": "2.0.0-alpha",
-  "author": "Lovell Fuller <npm@lovell.info>",
-  "description": "Find files in an Nginx cache based on partial URL keys",
+  "name": "qf-nginx-cache",
+  "version": "1.0.0-alpha",
+  "author": "Luke Hebblethwaite luke@quickfire.io",
+  "description": "Find files in an Nginx cache based on partial URL keys. Forked from lovell/nginx-cache",
   "scripts": {
     "test": "semistandard && nyc --reporter=lcov mocha"
   },
   "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "git://github.com/lovell/nginx-cache"
+    "url": "git://github.com/quickfire/qf-nginx-cache"
   },
   "keywords": [
     "nginx",
