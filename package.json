@@ -1,5 +1,5 @@
 {
-  "name": "qf-nginx-cache",
+  "name": "@quickfire/qf-nginx-cache",
   "version": "1.0.0-alpha",
   "author": "Luke Hebblethwaite luke@quickfire.io",
   "description": "Find files in an Nginx cache based on partial URL keys. Forked from lovell/nginx-cache",
