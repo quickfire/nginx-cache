@@ -6,14 +6,12 @@ as efficiently as possible
 looking for partial URL key matches
 based on a regular expression.
 
+This is based on and forked from [lovell/nginx-cache](https://github.com/lovell/nginx-cache) with some updates for newer nodejs versions.
+
 ## Install
 
 ```sh
-npm install nginx-cache
-```
-
-```sh
-yarn add nginx-cache
+npm install @quickfire/qf-nginx-cache
 ```
 
 ## Usage example
@@ -21,7 +19,7 @@ yarn add nginx-cache
 Purge all CSS files from an Nginx cache:
 
 ```javascript
-const NginxCache = require('nginx-cache');
+const NginxCache = require('@quickfire/qf-nginx-cache');
 
 NginxCache('/var/www/cache')
   .find(/.css$/)
